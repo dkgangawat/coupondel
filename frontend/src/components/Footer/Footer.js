@@ -11,6 +11,7 @@ const Footer = () => {
             <div className="social-Media footer-col">
               <div>
                 <img src={icon} draggable="false" alt="icon" />
+                <ul className="social">
                 <li>
                   <a target='blank' href="https://www.linkedin.com/company/coupondel/">
                     <i className="fi fi-brands-linkedin"></i>
@@ -31,7 +32,7 @@ const Footer = () => {
                   <a target='blank' href="https://twitter.com/coupondel_">
                     <i className="fi fi-brands-twitter"></i>
                   </a>
-                </li>
+                </li></ul>
               </div>
             </div>
             <div className="footer-col">

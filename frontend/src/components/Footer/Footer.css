@@ -65,6 +65,7 @@
 .social-Media li{
       display: inline;
       word-wrap: normal;
+      border-bottom: none;
 }
 .social-Media i{
     font-size: 24px;
@@ -96,6 +97,8 @@
 }
 .address p{
     color: #bbbbbb;
+    margin: 16px;
+    font-size:small;
 }
 .address span{
     color: white;
@@ -123,6 +126,7 @@
     top: 3px;
     padding: 8px 8px 8px 0px;
     color: #bbbbbb;
+    margin-bottom:20px ;
 }
 @media  screen and (max-width:500px){   
     .footer-container{
@@ -137,7 +141,10 @@
         border-bottom: 2px solid #2b2a2a;
 
     }
-
+    .social li{
+        border: none;
+    }
+   
     
 
 
